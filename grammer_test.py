@@ -10,6 +10,10 @@
 @Description:
 '''
 import numpy as np
-a = np.array([1,2,3,4])
-b = np.array([1,2,3,4])
+a = np.array([[1,2,3,4], [1,2,3,4]])
+print(a.shape)
+print(np.ndim(a))
+b = np.array([[1,1],[2,2],[3,3],[4,4]])
 print(a.dot(b))
+x = np.array([1,2,3,4])
+print(x.reshape((4,1)))
