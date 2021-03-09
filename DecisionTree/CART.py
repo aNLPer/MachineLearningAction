@@ -102,8 +102,6 @@ class Cart():
             self.construct(node, key, value, new_columns)
 
 
-
-
 df = pd.read_csv("example_data.csv", dtype={"windy":"str"})
 
 
